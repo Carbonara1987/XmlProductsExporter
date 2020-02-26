@@ -1,0 +1,13 @@
+{
+  "name" : "ProductsExporter",
+  "require": {
+    "ext-pdo": "^7.2",
+    "ext-pdo_mysql": "*",
+    "spatie/array-to-xml": "^2.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "ProductsExporter\\": "src/"
+    }
+  }
+}
